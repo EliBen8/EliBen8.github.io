@@ -669,6 +669,16 @@ footer {
     }
 }
 
+.project-info ul {
+    text-align: left; /* Ensures the text inside the ul is aligned left */
+    padding-left: 20px; /* Adds indentation for bullets */
+    list-style-position: outside; /* Moves the bullets outside the text */
+}
+
+.project-info li {
+    margin-bottom: 5px; /* Adds space between items */
+}
+
 .no-image {
     .project-info {
         position: relative;
